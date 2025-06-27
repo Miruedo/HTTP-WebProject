@@ -1,0 +1,55 @@
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar using Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Header style */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+/* Main section with padding and borders */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
